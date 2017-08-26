@@ -31,7 +31,21 @@ public class GetMinMaxString {
     	
         return result.toString();
     }
+    /* "효보아빠"님 풀이
+    public String getMinMaxString(String str) {
+        String[] tmp = str.split(" ");
+        int min, max, n;
+        min = max = Integer.parseInt(tmp[0]);
+        for (int i = 1; i < tmp.length; i++) {
+                n = Integer.parseInt(tmp[i]);
+            if(min > n) min = n;
+            if(max < n) max = n;
+        }
 
+        return min + " " + max;
+
+    }
+    */
     public static void main(String[] args) {
         String str = "-4 -2 -3 -1 0 -10";
         GetMinMaxString minMax = new GetMinMaxString();
