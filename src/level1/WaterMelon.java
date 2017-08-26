@@ -12,6 +12,11 @@ public class WaterMelon {
 		
 		return str.toString();
 	}
+	/* "이재석"님 풀이
+	public String watermelon(int n){
+        return new String(new char [n/2+1]).replace("\0", "수박").substring(0,n);
+    }	
+	 */
 
 	// 실행을 위한 테스트코드입니다.
 	public static void  main(String[] args){
