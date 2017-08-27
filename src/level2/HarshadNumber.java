@@ -35,6 +35,14 @@ public class HarshadNumber{
 			return false;
 	}
 	*/
+	
+	/* 덱스또 님 풀이
+	public boolean isHarshad(int num){
+        sum = 0;
+        Integer.toString(num).chars().forEach(c -> sum += c - '0');
+        return num % sum == 0;
+    }
+	*/
   
        // 아래는 테스트로 출력해 보기 위한 코드입니다.
 	public static void  main(String[] args){
