@@ -27,6 +27,16 @@ class TryHelloWorld2 {
         
         return answer;
     }
+    
+    /* 덱스또 님 풀이
+    public String getDayName(int month, int day)
+    {
+        Calendar cal = new Calendar.Builder().setCalendarType("iso8601")
+                        .setDate(2016, month - 1, day).build();
+        return cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, new Locale("ko-KR")).toUpperCase();
+    }
+    */
+    
     public static void main(String[] args) {
         TryHelloWorld2 test = new TryHelloWorld2();
         int a=12, b=31;
