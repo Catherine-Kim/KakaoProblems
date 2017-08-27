@@ -10,6 +10,7 @@ class Fibonacci {
 			return fibonacci(num-2) + fibonacci(num - 1);
 		
 		이 코드는 실행시간이 너무 오래 걸려서 에러뜸
+		재귀함수는 숫자가 높아질 수록 오래걸리나봄
 		*/
 		
 		// 피보나치 수열의 일반항
